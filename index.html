@@ -7,37 +7,48 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="calcul">
+
+  <div class="calcul" >
+    <div class="afficher">
+       <div class="small">
+      <input type="text" placeholder="0">
+    </div>
+  <div class="larg" id="largbox">
     <input type="text" placeholder="0">
+  </div>
+    </div>
+   
+    
     <div class="button">
     <div>
-      <button>C</button>
-      <button>CE</button>
-      <button>%</button>
-      <button>/</button>
+      <button data-key="clear" id="green">C</button>
+      <button data-key="CE" id="green">CE</button>
+      <button data-key="%" id="green">%</button>
+      <button data-key="/" id="green">/</button>
     </div>
     <div>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>X</button>
+      <button data-key="7" >7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button data-key="*" id="green">X</button>
     </div>
     <div>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button  data-key="-" id="green">-</button>
     </div>
     <div>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>+</button>
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button data-key="+" id="green">+</button>
     </div>
     <div>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
+      <button data-key="0">0</button>
+      <button data-key=".">.</button>
+      <button data-key="=" id="equal">=</button>
     </div></div></div>
+    <script src="javascript.js"></script>
 </body>
 </html>
