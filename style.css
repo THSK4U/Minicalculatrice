@@ -22,36 +22,29 @@ body{
     background-color:rgba(1, 155, 91, 0.51);
     box-shadow: 0px 3px 15px #0000002f;
 }
-.button{
-    width: 100%;
-    background-image: url(/Vector\ 1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    border-radius: 0px 0px 40px 40px;
-    display: grid;
-    justify-content: space-evenly;
-    padding-top: 80px;
-    padding-bottom: 50px;
+.afficher{
+    overflow: hidden;
 }
-.larg input{
+.larg{
+    content: "0";
     width: 310px;
     border: none;
     padding: 0 34px 34px 34px;
     margin: 0 20px;
+    color: white;
     background: transparent;
-    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
 }
-.small input{
+.small{
+    content: "0";
     width: 310px;
+    color: rgba(255, 255, 255, 0.5);
     border: none;
     padding-right: 34px;
     margin: 0 20px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
     font-size: 20px;
     text-align: right;
     cursor: pointer;
@@ -59,17 +52,33 @@ body{
 input::placeholder{
     color: aliceblue;
 }
+.buttons{
+    width: 100%;
+    background-image: url(/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.buttons div{
+    display: flex;
+    justify-content: space-evenly;
+}
 button{
     border: none;
     width: 46px;
     height: 48px;
     margin-top: 20px;
     margin-bottom: 6px;
-    margin-left: 20px;
-    border-radius: 20%;
+    border-radius: 15px;
     background: transparent;
     cursor: pointer;
     font-size: 23px;
+
+
 }
 #green, #equal{
     background: rgba(8, 172, 103, 0.83);
@@ -78,5 +87,6 @@ button{
 #equal{
     width: 116px;
     height: 40px;
-    border-radius: 13%;
+    border-radius: 13px;
 }
+
