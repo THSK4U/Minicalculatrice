@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SimpleIT</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -22,33 +22,33 @@
 
     <div class="buttons">
     <div>
-      <button data-key="clear" id="green" onclick="clr()" >C</button>
-      <button data-key="last" id="green" onclick="clrlast()">CE</button>
-      <button data-key="%" id="green" onclick="afficher('%')">%</button>
-      <button data-key="/" id="green" onmouseup="solve()"  onclick="afficher('/')">/</button>
+      <button id="green" onclick="clr()" >C</button>
+      <button id="green" onclick="clrlast()">CE</button>
+      <button id="green" onclick="afficher('/100')">%</button>
+      <button id="green" onmouseup="solve()"  onclick="afficher('/')">/</button>
     </div>
     <div>
-      <button data-key="7"  onclick="afficher('7')">7</button>
-      <button data-key="8"  onclick="afficher('8')">8</button>
-      <button data-key="9"  onclick="afficher('9')">9</button>
-      <button data-key="*" id="green" onmouseup="solve()" onclick="afficher('*')">X</button>
+      <button onclick="afficher('7')">7</button>
+      <button onclick="afficher('8')">8</button>
+      <button onclick="afficher('9')">9</button>
+      <button id="green" onmouseup="solve()" onclick="afficher('*')">X</button>
     </div>
     <div>
-      <button data-key="4"   onclick="afficher('4')">4</button>
-      <button data-key="5"   onclick="afficher('5')">5</button>
-      <button data-key="6"   onclick="afficher('6')">6</button>
-      <button  data-key="-" id="green" onmouseup="solve()" onclick="afficher('-')">-</button>
+      <button onclick="afficher('4')">4</button>
+      <button onclick="afficher('5')">5</button>
+      <button onclick="afficher('6')">6</button>
+      <button id="green" onmouseup="solve()" onclick="afficher('-')">-</button>
     </div>
     <div>
-      <button data-key="1"   onclick="afficher('1')">1</button>
-      <button data-key="2"  onclick="afficher('2')">2</button>
-      <button data-key="3"   onclick="afficher('3')">3</button>
-      <button data-key="+" id="green" onmousedown="solve()" onclick="afficher('+')">+</button>
+      <button onclick="afficher('1')">1</button>
+      <button onclick="afficher('2')">2</button>
+      <button onclick="afficher('3')">3</button>
+      <button id="green" onmousedown="solve()" onclick="afficher('+')">+</button>
     </div>
     <div>
-      <button data-key="0"   onclick="afficher('0')">0</button>
-      <button data-key="."   onclick="afficher('.')">.</button>
-      <button data-key="=" id="equal" onclick="solve()">=</button>
+      <button onclick="afficher('0')">0</button>
+      <button onclick="afficher('.')">.</button>
+      <button id="equal" onclick="solve()">=</button>
     </div></div></div>
     <script src="/javascript.js"></script>
 </body>
